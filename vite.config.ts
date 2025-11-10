@@ -5,7 +5,7 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/your-stable-app/',
+  base: '/',
   resolve: {
     alias: {
       '~~': path.resolve(__dirname, './src'),
