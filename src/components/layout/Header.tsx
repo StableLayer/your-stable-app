@@ -1,6 +1,7 @@
 import { ConnectButton } from '@mysten/dapp-kit'
 import { Link } from '@radix-ui/themes'
 import NetworkType from '@suiware/kit/NetworkType'
+import logo from '../../assets/logo.png'
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
         href="/"
         className="flex flex-col items-center justify-center gap-1 text-sds-dark outline-none hover:no-underline sm:flex-row dark:text-sds-light"
       >
-        <div className="pt-1 text-xl sm:text-2xl">Your Stable</div>
+        <img src={logo} alt="Your Stable" className="h-8 sm:h-10" />
       </Link>
 
       <div className="flex w-full flex-col items-center justify-center gap-3 sm:w-auto sm:flex-row">
